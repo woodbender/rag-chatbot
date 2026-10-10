@@ -1,11 +1,11 @@
 # ROADMAP.md
 
-> **Current Phase**: Not started
+> **Current Phase**: Phase 1 Complete
 > **Milestone**: v1.0
 
 ## Must-Haves (from SPEC)
-- [ ] PDF document upload, text extraction, chunking, and embedding creation.
-- [ ] Persistent ChromaDB vector storage for fast context retrieval.
+- [x] PDF document upload, text extraction, chunking, and embedding creation.
+- [x] Persistent ChromaDB vector storage for fast context retrieval.
 - [ ] Gemini API powered Q&A with page-level source citations.
 - [ ] Anti-hallucination fallback for out-of-scope or unanswerable queries.
 - [ ] Clean Streamlit user interface with document management/removal support.
@@ -13,7 +13,7 @@
 ## Phases
 
 ### Phase 1: Foundation & Ingestion Engine
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Build `config.py` and `ingest.py` to handle PDF text extraction via `pymupdf`, chunking with page metadata, Gemini embeddings using `text-embedding-004`, and persistence/deletion in ChromaDB.
 **Requirements**: REQ-01, REQ-02, REQ-03, REQ-04
 
