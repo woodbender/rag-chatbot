@@ -30,9 +30,9 @@ A modular, document-grounded Retrieval-Augmented Generation (RAG) Q&A chatbot th
 - **Environment:** Preserve existing `.venv` environment.
 
 ## Success Criteria
-- [ ] Application starts cleanly via `streamlit run app.py`.
-- [ ] PDF document upload, chunking, and embedding creation complete without error.
-- [ ] Vector similarity search retrieves top matching passages from ChromaDB.
-- [ ] Gemini API generates grounded responses with page numbers and document title citations.
-- [ ] Unsupported/out-of-context questions return an explicit refusal without hallucinating.
-- [ ] Document list and document removal work seamlessly in Streamlit UI.
+- [x] Application starts cleanly via `streamlit run app.py`.
+- [x] PDF document upload, chunking, and embedding creation complete without error.
+- [x] Vector similarity search retrieves top matching passages from ChromaDB.
+- [x] Gemini API generates grounded responses with page numbers and document title citations.
+- [x] Unsupported/out-of-context questions return an explicit refusal without hallucinating.
+- [x] Document list and document removal work seamlessly in Streamlit UI.

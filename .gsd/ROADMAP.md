@@ -1,7 +1,7 @@
 # ROADMAP.md
 
-> **Current Phase**: Phase 3 Complete
-> **Milestone**: v1.0
+> **Current Phase**: All Phases Complete 🎉
+> **Milestone**: v1.0 Complete
 
 ## Must-Haves (from SPEC)
 - [x] PDF document upload, text extraction, chunking, and embedding creation.
@@ -28,6 +28,6 @@
 **Requirements**: REQ-08, REQ-09
 
 ### Phase 4: Integration Verification & End-to-End Testing
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Empirically test and verify full workflow from PDF ingestion to vector search, source-grounded answering, out-of-scope refusals, and UI document deletion.
 **Requirements**: REQ-01, REQ-02, REQ-03, REQ-04, REQ-05, REQ-06, REQ-07, REQ-08, REQ-09
