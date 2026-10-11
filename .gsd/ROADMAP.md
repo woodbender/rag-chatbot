@@ -1,13 +1,13 @@
 # ROADMAP.md
 
-> **Current Phase**: Phase 1 Complete
+> **Current Phase**: Phase 2 Complete
 > **Milestone**: v1.0
 
 ## Must-Haves (from SPEC)
 - [x] PDF document upload, text extraction, chunking, and embedding creation.
 - [x] Persistent ChromaDB vector storage for fast context retrieval.
-- [ ] Gemini API powered Q&A with page-level source citations.
-- [ ] Anti-hallucination fallback for out-of-scope or unanswerable queries.
+- [x] Gemini API powered Q&A with page-level source citations.
+- [x] Anti-hallucination fallback for out-of-scope or unanswerable queries.
 - [ ] Clean Streamlit user interface with document management/removal support.
 
 ## Phases
@@ -18,7 +18,7 @@
 **Requirements**: REQ-01, REQ-02, REQ-03, REQ-04
 
 ### Phase 2: RAG Pipeline & Gemini Grounding
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Build `rag_pipeline.py` to perform ChromaDB similarity search, construct context-augmented prompts, generate answers via `google-genai` (`gemini-2.5-flash`), and enforce strict fallback for unsupported queries.
 **Requirements**: REQ-05, REQ-06, REQ-07
 
