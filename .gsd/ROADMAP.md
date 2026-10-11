@@ -1,6 +1,6 @@
 # ROADMAP.md
 
-> **Current Phase**: Phase 2 Complete
+> **Current Phase**: Phase 3 Complete
 > **Milestone**: v1.0
 
 ## Must-Haves (from SPEC)
@@ -8,7 +8,7 @@
 - [x] Persistent ChromaDB vector storage for fast context retrieval.
 - [x] Gemini API powered Q&A with page-level source citations.
 - [x] Anti-hallucination fallback for out-of-scope or unanswerable queries.
-- [ ] Clean Streamlit user interface with document management/removal support.
+- [x] Clean Streamlit user interface with document management/removal support.
 
 ## Phases
 
@@ -23,7 +23,7 @@
 **Requirements**: REQ-05, REQ-06, REQ-07
 
 ### Phase 3: Streamlit Interface & Document Management
-**Status**: ⬜ Not Started
+**Status**: ✅ Complete
 **Objective**: Implement `app.py` delivering a polished Streamlit user interface for document upload, document collection management/deletion, chat interface with visible citations, and error messaging.
 **Requirements**: REQ-08, REQ-09
 
