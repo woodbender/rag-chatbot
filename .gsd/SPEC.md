@@ -8,7 +8,7 @@ A modular, document-grounded Retrieval-Augmented Generation (RAG) Q&A chatbot th
 ## Goals
 1. Provide a responsive Streamlit UI for PDF document uploading, document removal, vector indexing, and interactive Q&A.
 2. Ingest and extract text from PDFs using PyMuPDF, chunking text into overlapping segments with page reference tracking.
-3. Embed document chunks using Gemini `text-embedding-004` and persist them in ChromaDB (`data/chroma_db`).
+3. Embed document chunks using Gemini `gemini-embedding-001` and persist them in ChromaDB (`data/chroma_db`).
 4. Perform similarity search to retrieve relevant document passages for user questions.
 5. Generate accurate, document-grounded answers using `gemini-2.5-flash` with clear source document names and page references.
 6. Enforce strict anti-hallucination checks, gracefully handling out-of-scope questions, scanned/empty PDFs, and API failures.

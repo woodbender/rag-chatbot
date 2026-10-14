@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Runtime data (ChromaDB index + uploaded PDFs — recreated at runtime)
+data/chroma_db/
+!data/chroma_db/.gitkeep
+data/documents/
+!data/documents/.gitkeep
+
+# IDE / tooling
+.gemini/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

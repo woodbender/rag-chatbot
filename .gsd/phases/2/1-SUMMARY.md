@@ -2,7 +2,7 @@
 
 ## Work Completed
 - **Vector Query Implementation (`rag_pipeline.py`)**:
-  - `query_similar_chunks(query, top_k)`: Validates input query, embeds query text using Gemini `text-embedding-004`, queries ChromaDB vector collection, and handles empty database collections gracefully.
+  - `query_similar_chunks(query, top_k)`: Validates input query, embeds query text using Gemini `gemini-embedding-001`, queries ChromaDB vector collection, and handles empty database collections gracefully.
   - Extracts and formats chunk ids, texts, document names, page numbers, and cosine distance scores.
 - **Context Formatting Engine**:
   - `format_context(chunks)`: Parses retrieved chunks into formatted text blocks labeled with `[Document: <doc_name>, Page: <page>]`.

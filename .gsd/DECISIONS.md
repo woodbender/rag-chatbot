@@ -3,7 +3,7 @@
 ## ADR-001: Model Selection & Embeddings
 - **Date:** 2026-10-10
 - **Status:** Accepted
-- **Decision:** Use Google Gemini SDK `google-genai` with `gemini-2.5-flash` for response generation and `text-embedding-004` for document chunk vector embeddings.
+- **Decision:** Use Google Gemini SDK `google-genai` with `gemini-2.5-flash` for response generation and `gemini-embedding-001` for document chunk vector embeddings.
 - **Rationale:** High efficiency, fast latency, cost effectiveness, and strong instruction following for document-grounded RAG tasks.
 
 ## ADR-002: Vector Database & Storage

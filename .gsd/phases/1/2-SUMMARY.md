@@ -3,7 +3,7 @@
 ## Work Completed
 - **Gemini Embedding Adapter in `ingest.py`**:
   - `get_genai_client()`: Initializes `google.genai.Client` with `config.GEMINI_API_KEY`.
-  - `get_embedding(text)` & `get_embeddings_batch(texts)`: Uses Gemini `text-embedding-004` to construct dense vector embeddings.
+  - `get_embedding(text)` & `get_embeddings_batch(texts)`: Uses Gemini `gemini-embedding-001` to construct dense vector embeddings.
 - **ChromaDB Storage Engine**:
   - `get_chroma_collection()`: Configures persistent vector collection at `data/chroma_db` using cosine distance space.
   - `ingest_pdf(pdf_path)`: Extracted pages, chunked text, generated embeddings in batch, deleted stale entries, and stored vectors with page-level metadatas.

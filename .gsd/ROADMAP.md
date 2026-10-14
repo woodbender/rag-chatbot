@@ -14,7 +14,7 @@
 
 ### Phase 1: Foundation & Ingestion Engine
 **Status**: ✅ Complete
-**Objective**: Build `config.py` and `ingest.py` to handle PDF text extraction via `pymupdf`, chunking with page metadata, Gemini embeddings using `text-embedding-004`, and persistence/deletion in ChromaDB.
+**Objective**: Build `config.py` and `ingest.py` to handle PDF text extraction via `pymupdf`, chunking with page metadata, Gemini embeddings using `gemini-embedding-001`, and persistence/deletion in ChromaDB.
 **Requirements**: REQ-01, REQ-02, REQ-03, REQ-04
 
 ### Phase 2: RAG Pipeline & Gemini Grounding

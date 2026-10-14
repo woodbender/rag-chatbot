@@ -14,7 +14,7 @@ class TestConfiguration(unittest.TestCase):
     def test_constants_defined(self):
         self.assertTrue(hasattr(config, "CHROMA_DB_DIR"))
         self.assertTrue(hasattr(config, "DOCUMENTS_DIR"))
-        self.assertEqual(config.EMBEDDING_MODEL, "text-embedding-004")
+        self.assertEqual(config.EMBEDDING_MODEL, "gemini-embedding-001")
         self.assertEqual(config.CHAT_MODEL, "gemini-2.5-flash")
         self.assertGreater(config.CHUNK_SIZE, 0)
         self.assertGreater(config.CHUNK_OVERLAP, 0)
